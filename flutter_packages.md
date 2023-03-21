@@ -7,3 +7,4 @@
 - [Go router](https://pub.dev/packages/go_router)
 - [Retrofit](https://pub.dev/packages/retrofit)
 - [Widget Annotations](https://docs.widgetbook.io/widgetbook-annotation/annotations)
+- [Dynamic Widgets by JSON](https://salmanbediya.medium.com/render-dynamic-flutter-widgets-using-json-f8950e6ccc92)
