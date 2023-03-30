@@ -87,3 +87,40 @@ Short Explanation
 ListView couldn’t kill its the children are not being visible to the screen. It causes consume a lot of memory if children have high-resolution images.
 
 By doing these options false, could lead to use of more GPU and CPU work, but it could solve our memory issue and you will get a very performant view without noticeable issues.
+
+
+# 11. [Ignore Rebuilding of Widget in AnimatedBuilder.](https://medium.com/@ashwinmali32/flutter-performance-optimization-tips-74cf76e0a505)
+→ Animation is one of the most attractive features in any web or mobile application. It grabs the user’s attention, but at the same time, it decreases the performance of the application.
+
+→ Developers generally use AnimationController. However, it rebuilds multiple widgets in AnimatedBuilder, and that’s the common reason behind the slow Flutter performance.
+
+→ To avoid bad performance issues, you can use CounterWidget, which helps develop animation without rebuilding multiple widgets.
+
+#12 [Load list items efficiently — and on-demand](https://medium.com/@ashwinmali32/flutter-performance-optimization-tips-74cf76e0a505)
+→ When working with list items, developers generally use a combination of the widgets SingleChildScrollView and Column.
+
+→ When working with large lists, things can get messy pretty quickly if you continue using this same set of widgets. This is because each item is attached to the list and then rendered on the screen, which increases the overall load on the system.
+
+→ It is a good idea to use the ListView builder in such cases. This improves performance on a very high level. Let’s look at an example for a builder object:
+
+
+```js
+
+ListView.builder(
+itemCount: items.length,
+itemBuilder: (context, index) {
+return ListTile(
+title: Text('Row: ${items[index]}'),
+);},);
+```
+
+#13 [obfuscate](https://medium.com/@ashwinmali32/flutter-performance-optimization-tips-74cf76e0a505)
+
+→ The command to generate an app bundle is:
+
+flutter build appbundle
+→ To obfuscate the Dart language code, you need to use obfuscate and the — split-debug-info flag with the build command. The command looks like this:
+
+flutter build apk - obfuscate - split-debug-info=/<project-name>/<directory>
+The above command generates a symbol mapping file. This file is useful to de-obfuscate stack traces.
+
