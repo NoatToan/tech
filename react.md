@@ -17,7 +17,14 @@ Consistency: The new render system is cross-platform, it is easier to keep consi
 Faster Startup: Host components are lazily initialized by default.
 
 
+
+
+![image](https://github.com/NoatToan/tech/assets/49062153/9c2e94c3-9ccb-422b-89fe-2b8d159d6f6e)
+
+### Fabric View Flattening 
+![image](https://github.com/NoatToan/tech/assets/49062153/6114d3de-8ea3-4823-ad80-c1cdbbccef33)
+
+
+
 https://reactnative.dev/architecture/fabric-renderer
 https://reactnative.dev/architecture/view-flattening
-
-
