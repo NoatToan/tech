@@ -44,6 +44,22 @@ Without Hermes:
 Enabled Hermes:
 ![image](https://github.com/NoatToan/tech/assets/49062153/7d7ea97c-c62c-4880-8fb7-21a3e6c61e35)
 
+#### Advantages of using Hermes in your project
+- Time To Interaction (TTI) 
+
+This is the metric that helps us know how much time it takes our app to respond, i.e the time that the app takes to respond after pressing or requesting something on screen. After enabling Hermes it becomes 50% faster.
+
+- Application Size 
+
+While using React Native, the size of our setup files are relatively large. This discourages users from downloading the app. With Hermes, the setup files reduce by at least 46% of the bundle size.
+
+- Memory
+
+Lack of sufficient memory is always a challenge on low-end devices. However, with Hermes enabled, it showed a 26% reduction in the usage of device memory. That’s a significant enhancement, especially considering the fact any percentage of improvement is a great achievement on low-end devices.
+
+You can also help in improving Hermes
+
+Since Hermes is an open source source engine, we can help improve it. Feel free to open a Pull Request if you have any enhancement or contribution.
 
 https://reactnative.dev/architecture/fabric-renderer
 https://reactnative.dev/architecture/view-flattening
