@@ -18,4 +18,6 @@ Faster Startup: Host components are lazily initialized by default.
 
 
 https://reactnative.dev/architecture/fabric-renderer
+https://reactnative.dev/architecture/view-flattening
+
 
