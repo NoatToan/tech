@@ -1,4 +1,5 @@
 ![image](https://github.com/NoatToan/tech/assets/49062153/256313bc-dfef-4582-8820-2e6a821b69e4)
+
 Các hook như useState(defaultValue).
 Chỉ được gán default value ở phase init. 
 => Có trường hợp useState = prop 
