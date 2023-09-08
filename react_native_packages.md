@@ -7,4 +7,7 @@
 - [RN Mask Input](https://www.npmjs.com/package/react-native-mask-input)
 - [RN Skeleton Placeholder](https://github.com/chramos/react-native-skeleton-placeholder)
 - [RN Why did you render](https://github.com/welldone-software/why-did-you-render)
+- [RN Head TabView](https://github.com/zyslife/react-native-head-tab-view)
+- [RN Render HTML](https://github.com/meliorence/react-native-render-html)
+  
 https://www.linkedin.com/pulse/stop-using-inline-styles-react-js-azeem-aleem/
