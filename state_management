@@ -1,0 +1,10 @@
+1. Tất cả nên dùng uncontrolled components
+Hạn chế lưu data lên store.
+
+=> Khi nào nên lưu
+1 màn hình trước khi submit có nhiều steps.
+=> Mỗi khi pass step nào thì save step đó lên strore trước (Khi step sau cần data step truóc)
+
+
+2. Dùng useCallback phải để ý có useCallback lồng useCallback không. không thì đôi khi data sẽ lỗi.
+
