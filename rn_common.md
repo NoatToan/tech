@@ -1,0 +1,1 @@
+- https://github.com/APSL/react-native-keyboard-aware-scroll-view/issues/139
