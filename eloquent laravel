@@ -1,0 +1,7 @@
+Join sub query:
+1. Tận dụng soft delete
+2. Model1::query()->joinSub(Model2::query()->where('table_1.column1')) sẽ nhanh hơn
+Model1::query()->joinSub(Model2::query())->where('table_1.column1')là
+
+3. Tận dụng các tính năng khác của eloquent
+4. Logic tường minh hơn 
